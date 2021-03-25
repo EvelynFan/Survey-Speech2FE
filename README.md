@@ -8,7 +8,7 @@ and Emotion [[Paper](https://users.aalto.fi/~laines9/publications/karras2017sigg
   - The network learns a mapping from input waveforms to the 3D vertex coordinates of
 a face model, and simultaneously discovers a latent code that disambiguates the variations in facial expression that cannot be explained by the audio alone.
 
-<p align="center"><img width="60%" src="imgs/Siggraph17"/></p>
+<p align="center"><img width="60%" src="imgs/Siggraph17.jpg"/></p>
 
 - (CVPR2019) Capture, learning, and synthesis of 3D speaking styles [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cudeiro_Capture_Learning_and_Synthesis_of_3D_Speaking_Styles_CVPR_2019_paper.pdf)][[Demo](https://www.youtube.com/watch?v=XceCxf_GyW4)]
 
@@ -18,27 +18,27 @@ a face model, and simultaneously discovers a latent code that disambiguates the 
 
   - The framework learns to map speech to head rotations and expression weights of a 3D blendshape model (FaceWarehouse). They use the [[3D face tracker](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICPR-2016/media/files/1195.pdf)]to extract these 3D animation parameters (head rotations and AU intensities) from videos as the ground truth.
 
-<p align="center"><img width="50%" src="imgs/CVPRW19"/></p>
+<p align="center"><img width="50%" src="imgs/CVPRW19.jpg"/></p>
 
 - (SIGGRAPH2006) Expressive Speech-Driven Facial Animation [[Paper](https://people.cs.vt.edu/~yongcao/publication/pdf/cao06_tog.pdf)][[Demo](https://www.youtube.com/watch?v=iH3ngccpP2w)]
 
   - They derive a generative model of expressive facial motion that incorporates emotion control while maintaining accrate lip-synching.
 
-<p align="center"><img width="60%" src="imgs/Siggraph2006"/></p>
+<p align="center"><img width="60%" src="imgs/Siggraph2006.jpg"/></p>
 
 - (SIGGRAPH Asia2015) Video-Audio Driven Real-Time Facial Animation [[Paper](http://xufeng.site/publications/2014/cameraReady_sigAsia15.pdf)][[Demo](https://www.youtube.com/watch?v=EJ0uaBru17E)]
 
   -  The DNN acoustic model is applied to extract phoneme state posterior
 probabilities (PSPP) from the audio. After that, a lip motion regressor refines the 3D mouth shape based on both PSPP and expression weights of the 3D mouth shapes. Finally, the refined 3D mouth shape is combined with other parts of the 3D face to generate the final result.
 
-<p align="center"><img width="60%" src="imgs/Siggraph2015"/></p>
+<p align="center"><img width="60%" src="imgs/Siggraph2015.jpg"/></p>
 
 - (ICMI2020) Modality Dropout for Improved Performance-driven
 Talking Faces [[Paper](https://arxiv.org/pdf/2005.13616.pdf)]
 
   - Speech-related facial movements (mouth and jaw) are generated using audio-visual information, and non-speech facial movements (the rest of the face and the head pose) are generated using only visual information
 
-<p align="center"><img width="60%" src="imgs/ICMI2020"/></p>
+<p align="center"><img width="60%" src="imgs/ICMI2020.jpg"/></p>
 
 - (SIGGRAPH2017) A Deep Learning Approach for Generalized Speech Animation [[Paper](http://graphics.cs.cmu.edu/wp/wp-content/uploads/2017/06/sg2017-0509-final-1.pdf)][[Demo](https://www.youtube.com/watch?v=GwV1n8v_bpA)]
 
@@ -62,7 +62,7 @@ Talking Faces [[Paper](https://arxiv.org/pdf/2005.13616.pdf)]
 
   - It claims that the proposed approach is the first attempt to explicitly learn emotionally and content aware disentangled audio representations for facial animation. The framework learns to disentangle audio sequences into phonetic content, emotional tone, and other factors.
 
-<p align="center"><img width="50%" src="imgs/WACV2020"/></p>
+<p align="center"><img width="50%" src="imgs/WACV2020.jpg"/></p>
 
 - (ACM MM2020) Talking Face Generation with Expression-Tailored Generative
 Adversarial Network [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413844)] 
@@ -70,7 +70,7 @@ Adversarial Network [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413844)
   - It uses an expression encoder to disentangle the emotion information from expressional video clips, thus generating high quality expression-tailored face videos beyond audio-lip
 synchronization.
 
-<p align="center"><img width="40%" src="imgs/ET-GAN"/></p>
+<p align="center"><img width="40%" src="imgs/ET-GAN.jpg"/></p>
 
 - (SIGGRAPH ASIA2020) MakeItTalk: Speaker-Aware Talking-Head Animation [[Paper](https://arxiv.org/pdf/2004.12992.pdf)][[Demo](https://www.youtube.com/watch?v=vUMGKASgbf8)][[Project Webpage](https://people.umass.edu/yangzhou/MakeItTalk/)]
 
