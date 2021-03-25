@@ -5,7 +5,7 @@
 - (SIGGRAPH 2017) Audio-Driven Facial Animation by Joint End-to-End Learning of Pose
 and Emotion [[Paper](https://users.aalto.fi/~laines9/publications/karras2017siggraph_paper.pdf)][[Demo](https://www.youtube.com/watch?v=lDzrfdpGqw4)]
    
-  - The network learns a mapping from input waveforms to the 3D vertex coordinates of
+  > The network learns a mapping from input waveforms to the 3D vertex coordinates of
 a face model, and simultaneously discovers a latent code that disambiguates the variations in facial expression that cannot be explained by the audio alone.
 
 <p align="center"><img width="50%" src="imgs/Siggraph17.jpg"/></p>
@@ -28,9 +28,9 @@ a face model, and simultaneously discovers a latent code that disambiguates the 
 
 - (CVPR Workshop 2017) Speech-driven 3D Facial Animation with Implicit Emotional Awareness: A Deep Learning Approach [[Paper](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w41/papers/Pavlovic_Speech-Driven_3D_Facial_CVPR_2017_paper.pdf)]
 
-  - The framework learns to map speech to head rotations and expression weights of a 3D blendshape model (FaceWarehouse). They use the [3D face tracker](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICPR-2016/media/files/1195.pdf)to extract these 3D animation parameters (head rotations and AU intensities) from videos as the ground truth.
+  - The framework learns to map speech to head rotations and expression weights of a 3D blendshape model (FaceWarehouse). They use the [3D face tracker](https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICPR-2016/media/files/1195.pdf) to extract these 3D animation parameters (head rotations and AU intensities) from videos as the ground truth.
 
-<p align="center"><img width="30%" src="imgs/CVPRW19.jpg"/></p>
+<p align="center"><img width="50%" src="imgs/CVPRW19.jpg"/></p>
 
 - (SIGGRAPH 2006) Expressive Speech-Driven Facial Animation [[Paper](https://people.cs.vt.edu/~yongcao/publication/pdf/cao06_tog.pdf)][[Demo](https://www.youtube.com/watch?v=iH3ngccpP2w)]
 
