@@ -24,7 +24,7 @@ a face model, and simultaneously discovers a latent code that disambiguates the 
 
 - (CVPR 2019) Capture, learning, and synthesis of 3D speaking styles [[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Cudeiro_Capture_Learning_and_Synthesis_of_3D_Speaking_Styles_CVPR_2019_paper.pdf)][[Demo](https://www.youtube.com/watch?v=XceCxf_GyW4)]
 
-  > Based on FLAME, the network learns to transform audio features to 3D vertex displacement. It generalizes well across various speech sources, languages, and 3D face templates. It learns the facial motions that are mostly present in the lower face.
+  > Based on FLAME, the network learns to transform audio features to 3D vertex displacement. It generalizes well across various speech sources, languages, and 3D face templates. 
 
 - (CVPR Workshop 2017) Speech-driven 3D Facial Animation with Implicit Emotional Awareness: A Deep Learning Approach [[Paper](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w41/papers/Pavlovic_Speech-Driven_3D_Facial_CVPR_2017_paper.pdf)]
 
@@ -74,7 +74,7 @@ synchronization.
 
   > The audio content robustly controls the motion of lips and nearby facial regions, while the speaker information determines the specifics of facial expressions and the rest of the talking-head dynamics. They use the prediction of facial landmarks reflecting the speaker-aware dynamics.
 
-- (BMVC 2017) You Said That?: Synthesising Talking Faces from Audio [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413844)][[Demo](https://www.youtube.com/watch?v=lXhkxjSJ6p8)]
+- (BMVC 2017) You Said That? Synthesising Talking Faces from Audio [[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413844)][[Demo](https://www.youtube.com/watch?v=lXhkxjSJ6p8)]
 
   > The overall Speech2Vid model is a combination of two encoders (an identity encoder and an audio encoder), and a decoder that generates images corresponding to the audio.
 
